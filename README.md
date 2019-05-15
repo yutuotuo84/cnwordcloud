@@ -12,7 +12,7 @@ cnwordcloud(sample_text)
 ```
 结果如下：
 
-![example graph]('/img/xispeech.PNG')
+![example graph]('./img/xispeech.PNG')
 
 *来源：习近平于2019亚洲文明对话上的讲话*
 
