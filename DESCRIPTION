@@ -1,0 +1,13 @@
+Package: cnwordcloud
+Title: simle Chinese wordcloud generating tool 
+Version: 0.1
+Authors@R: person("Tuotuo", "Yu", email = "tuotuo.yu@gmail.com", role = c("aut", "cre"))
+Description: This package condenses the Chinese wordcloud generating process into one line of code. 
+Depends: R (>= 3.6.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    jiebaR,
+    wordcloud2
