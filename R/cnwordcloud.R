@@ -13,7 +13,8 @@
 cnwordcloud <- function(text, stopwords=NULL, nwords=50){
   # segment text 
   if(is.null(stopwords)){
-    stopwords <- data(cn_stopwords, envir = environment())
+    data(cn_stopwords, envir = environment())
+    stopwords <- cn_stopwords
   }
   words <- jiebaR::qseg[text]
   # remove stopwords 
